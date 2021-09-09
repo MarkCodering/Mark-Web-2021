@@ -1,0 +1,25 @@
+.About_Background {
+    background-image: url('./Mark Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.About_Title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    margin:0%;
+    padding-top: 8rem;
+}
+
+.About_Subtitle {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    margin: 0%;
+}

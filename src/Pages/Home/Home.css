@@ -1,0 +1,31 @@
+.Home_Background {
+    background-image: url(./home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    padding: -15%;
+}
+
+.Home_Title {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    padding-top: 10%;
+    padding-left: 50vh;
+}
+
+.Home_Subtitle {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    padding-left: 50vh;
+}
