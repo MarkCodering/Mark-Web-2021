@@ -15,19 +15,20 @@ const useStyles = makeStyles((theme) => ({
 export default function Footer() {
   const classes = useStyles();
   return (<div className="Footer_Background">
-    <Grid container className={classes.root} spacing={1}>
-      <Grid item xs={3}>
-        <p className="Footer_Heading">About us</p>
+    <Grid container className={classes.root} spacing={4}>
+      <Grid item xs={4}>
+        <p className="Footer_Heading">About</p>
         <a className="Footer_Content">My name is Mark, a computer science student, space technology lab member, and a Microsoft Learn Student Ambassador</a>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={4}>
         <p className="Footer_Heading">Connect</p>
         <a className="Footer_Link" href="https://www.instagram.com/mark.chen.sstm/">Instagram</a>
         <a className="Footer_Link" href="https://www.facebook.com/mark.chen.sstm">Facebook</a>
         <a className="Footer_Link" href="https://www.youtube.com/channel/UCkPWNhP80z41tEDvuCMSfGQ">YouTube</a>
         <a className="Footer_Link" href="https://www.linkedin.com/in/markchen-cs-entrepreneur/">LinkedIn</a>
+        <a className="Footer_Link" href="https://github.com/MarkCodering">GitHub</a>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item xs={4}>
         <p className="Footer_Heading">Infomation</p>
         <a className="Footer_Content">Find out more at contact page</a>
       </Grid>

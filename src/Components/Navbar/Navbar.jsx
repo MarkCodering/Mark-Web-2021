@@ -12,9 +12,9 @@ export default function Navbar() {
             <NavMenu>
             <NavLink to="/about" activeStyle>About</NavLink>
             <NavLink to="/projects" activeStyle>Projects</NavLink>
-            <NavLink to="/youtube" activeStyle>YouTube</NavLink>
-            <NavLink to="/blog" activeStyle>Blog</NavLink>
+            <NavLink to="/contents" activeStyle>YouTube/Blog</NavLink>
             <NavLink to="/courses" activeStyle>Courses</NavLink>
+            <NavLink to="/events" activeStyle>Events</NavLink>
             <NavLink to="/contact" activeStyle>Contact</NavLink>
         </NavMenu>
     </Nav>

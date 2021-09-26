@@ -1,0 +1,25 @@
+.Event_background{
+    background-image: url('./event_img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Event_header{
+    color: #fff;
+    font-size:3em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.Event_subtitle{
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}

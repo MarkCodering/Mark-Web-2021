@@ -4,7 +4,6 @@ import './Home.css'
 export default function Home() {
   return (
   <div className="Home_Background">
-    <h1 className="Home_Title">Hi,</h1>
-    <h2 className="Home_Subtitle">My name is Mark</h2>
+    <h1 className="Home_Title">Welcome!</h1>
   </div>);
 }

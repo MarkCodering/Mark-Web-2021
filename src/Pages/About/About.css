@@ -1,5 +1,5 @@
 .About_Background {
-    background-image: url('./Mark Background.png');
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,6 @@
 .About_Subtitle {
     text-align: center;
     font-size: 1.5em;
-    font-weight: bold;
     color: #fff;
     margin: 0%;
 }

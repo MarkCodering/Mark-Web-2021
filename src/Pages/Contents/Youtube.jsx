@@ -1,11 +1,12 @@
 import React from "react";
 import './Youtube.css';
 
-export default function Youtube() {
+export default function Contents() {
   return (
       <div className="Youtube_background">
           <h1 className="Youtube_title">YouTube Channel</h1>
           <div className="Youtube_player">
+            
             <iframe width="560" 
                     height="315" 
                     src="https://www.youtube.com/embed/phkzbdGNVd4" 

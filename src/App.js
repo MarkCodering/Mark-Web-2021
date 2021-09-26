@@ -6,7 +6,8 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from './Pages/Projects';
-import Youtube from './Pages/Youtube';
+import Contents from './Pages/Contents';
+import Events from './Pages/Events';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />
-      <Route path="/youtube" component={Youtube}/>
+      <Route path="/contents" component={Contents}/>
+      <Route path="/events" component={Events}/>
       <Route path="/contact" component={Contact} />
       <Footer />
     </Router>
