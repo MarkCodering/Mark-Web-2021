@@ -1,10 +1,10 @@
 .About_Background {
-    background-color: black;
+    background-image: url('./About_1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    height: 100vh;
+    height: 200vh;
 }
 
 .About_Title {
@@ -21,4 +21,18 @@
     font-size: 1.5em;
     color: #fff;
     margin: 0%;
+}
+
+.About_Layout {
+    padding: 4%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.About_Layout_1 {
+    display: grid;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
 }

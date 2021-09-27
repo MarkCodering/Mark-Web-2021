@@ -1,10 +1,10 @@
 .Home_Background {
-    background-image: url(./home.jpg);
+    background-image: url(./Home_3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
     padding: -15%;
 }
@@ -14,10 +14,10 @@
     font-weight: bold;
     color: #fff;
     text-align: center;
+    justify-content: center;
     margin: 0;
     display: flex;
-    padding-top: 10%;
-    padding-left: 50vh;
+    padding-top: 11%;
 }
 
 .Home_Subtitle {
@@ -25,7 +25,14 @@
     font-weight: bold;
     color: #fff;
     text-align: center;
+    justify-content: center;
     margin: 0;
     display: flex;
     padding-left: 50vh;
+}
+
+.Home_Layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
