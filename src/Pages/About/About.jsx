@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "@mui/material/Card";
-import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -32,8 +31,7 @@ export default function About() {
               Computer Science Student
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+             I'm a computer science student at the Tamkang University in Taiwan. I am passionate about both hardware and software side of the computing system.
             </Typography>
           </CardContent>
           <CardActions>
